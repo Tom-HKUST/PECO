@@ -1,6 +1,6 @@
 # PECO-MICRO2026
 
-This repository contains the code for PECO-MICRO2026: token-clustering sparse attention for HunyuanVideo with CUDA kernels.
+This repository contains the code for PECO-MICRO2026: token-clustering sparse attention for Foundational Diffusion Models with Base-offset PE.
 
 Requires Linux, Python 3.10+, a working NVIDIA driver, and a CUDA Toolkit matching your PyTorch installation. The build prefers CUDA 12.8 when available.
 
