@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peco"
+version = "0.1.0"
+description = "PECO-MICRO2026: token-clustering sparse attention with Base-Offset fake quantization"
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5,<2.9",
+    "diffusers>=0.34,<0.37",
+    "transformers>=4.49.2,<6",
+    "accelerate>=1.7.0",
+    "numpy",
+    "sentencepiece",
+    "ftfy",
+    "imageio",
+    "imageio-ffmpeg",
+]
+
+[tool.setuptools.packages.find]
+include = ["peco*"]
+
+[tool.setuptools.package-data]
+peco = ["kernels/*.cu"]
