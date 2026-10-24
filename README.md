@@ -23,4 +23,3 @@ The Base-Offset encoder, decoder, and fake-quantization entry point are in `peco
 
 - The CUDA implementation does not use warp specialization.
 - PECO is not applicable to few-step diffusion models.
-- GPU numerical correctness, video quality, and performance remain unverified in the current environment because its NVIDIA driver is unavailable.
